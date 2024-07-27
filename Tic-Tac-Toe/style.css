@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+} /*If we want add custom styling or If By default margin & padding is added then we can set as 0*/
+body {
+  background: rgb(251, 218, 223);
+  text-align: center;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  padding-top: 2%;
+  color: rgb(6, 75, 52);
+}
+.container {
+  height: 70vh; /*viewport height*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3); /*0.3 for shadow*/
+  font-size: 8vmin;
+  color: rgb(6, 75, 52);
+  background-color: rgb(120, 255, 210);
+}
+/* #reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: rgb(6, 75, 52);
+  color: white;
+} */
+#new-btn,
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: rgb(6, 75, 52);
+  color: white;
+}
+#msg {
+  color: red;
+  font-size: 8vmin;
+}
+.msg-container {
+  height: 50px;
+}
+.hide {
+  display: none;
+}
